@@ -146,7 +146,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    ///
    -->
 
-   <subset name="media-type" displayName="Metadata Image Type"  appliesTo="detailed,carousel,grid-detailed,grid-detailed-flipped">
+   <subset name="media-type" displayName="Metadata Image Type"  appliesTo="detailed,detailed-flipped,carousel,grid-detailed,grid-detailed-flipped">
       <include name="image" displayName="Image" />
 	  <include name="boxart" displayName="Boxart" />
       <include name="miximage" displayName="Miximage" />
@@ -562,9 +562,12 @@ Licnese: Creative Commons CC-BY-NC-SA
 
 	<include name="grid">./grid.xml</include>
 
+	<customView name="detailed-flipped" inherits="detailed" displayName="Detailed (Flipped)">
+	</customView>
+
 	<!-- Off Metadata Toggle -->
 	<!-- ~~~~~~~~~~~~~ -->
-	<view name="detailed, gamecarousel, grid, grid-detailed, grid-detailed-flipped" ifSubset="metadata:off">
+	<view name="detailed, detailed-flipped, gamecarousel, grid, grid-detailed, grid-detailed-flipped" ifSubset="metadata:off">
 		<image name="game-metadata-background-shadow-base" extra="true">
 			<visible>false</visible>
 		</image>

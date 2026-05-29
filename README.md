@@ -22,6 +22,7 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
   - `Gamelist View Style` - sets the style of the gamelist View.
 
     - `Detailed` - A simple text list of games and metadata on the left.
+    - `Detailed (Flipped)` - A simple text list of games on the left and metadata on the right.
     - `GameCarousel` - A carousel of game marquees and metadata on the left.
     - `Grid` - A grid of boxart and minimal metadata below for games. No metadata images.
     - `Grid-Detailed` - A grid of boxart and detailed metadata on the left for games.
