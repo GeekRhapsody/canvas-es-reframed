@@ -419,17 +419,22 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
 			<zIndex>5</zIndex>
+			<visible>false</visible>
 		</image>
 		<image name="md_thumbnail">
 			<origin ifSubset="media-type:miximage">0 0.5</origin>
 			<origin ifSubset="media-type:boxart">0.5 0.5</origin>
 			<zIndex>6</zIndex>
+			<visible>false</visible>
 		</image>
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<delay>3</delay>
 			<roundCorners>0.005</roundCorners>
-			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 			<zIndex>8</zIndex>
 		</video>
 		<datetime name="md_releasedate,md_lastplayed">

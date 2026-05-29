@@ -1219,4 +1219,63 @@ based on 720x480 (RG34XX and similar handhelds)
 	</customView>
 
 
+	<!-- Video Snapshot Media Override -->
+	<!-- ~~~~~~~~~~~~~ -->
+	<view name="detailed, gamecarousel">
+		<image name="md_image">
+			<visible>false</visible>
+		</image>
+		<image name="md_thumbnail">
+			<visible>false</visible>
+		</image>
+		<video name="md_video">
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
+		</video>
+	</view>
+	<customView name="detailed-flipped">
+		<image name="md_image">
+			<visible>false</visible>
+		</image>
+		<image name="md_thumbnail">
+			<visible>false</visible>
+		</image>
+		<video name="md_video">
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
+		</video>
+	</customView>
+	<customView name="grid-detailed">
+		<image name="md_image">
+			<visible>false</visible>
+		</image>
+		<image name="md_thumbnail">
+			<visible>false</visible>
+		</image>
+		<video name="md_video">
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
+		</video>
+	</customView>
+	<customView name="grid-detailed-flipped">
+		<image name="md_image">
+			<visible>false</visible>
+		</image>
+		<image name="md_thumbnail">
+			<visible>false</visible>
+		</image>
+		<video name="md_video">
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
+		</video>
+	</customView>
+
 </theme>
