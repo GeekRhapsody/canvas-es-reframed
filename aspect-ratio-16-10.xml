@@ -336,7 +336,7 @@ based on 1920 x 1200
 	<view name="detailed, gamecarousel" ifSubset="font-size:small,metadata:on" >
 		<video name="md_video">
 			<pos>0.25 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -434,7 +434,7 @@ based on 1920 x 1200
 	<customView name="detailed-flipped" ifSubset="font-size:small,metadata:on" >
 		<video name="md_video">
 			<pos>0.75 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -536,7 +536,7 @@ based on 1920 x 1200
 	<view name="detailed, gamecarousel" ifSubset="font-size:medium|large,metadata:on" >
 		<video name="md_video">
 			<pos>0.255 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -610,7 +610,7 @@ based on 1920 x 1200
 	<customView name="detailed-flipped" ifSubset="font-size:medium|large,metadata:on" >
 		<video name="md_video">
 			<pos>0.755 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -686,7 +686,7 @@ based on 1920 x 1200
 	<view name="detailed, gamecarousel" ifSubset="metadata:off" >
 	<video name="md_video">
 			<pos>0.255 0.48</pos>
-			<maxSize>0.386 0.40</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -713,7 +713,7 @@ based on 1920 x 1200
 	<customView name="detailed-flipped" ifSubset="metadata:off" >
 	<video name="md_video">
 			<pos>0.755 0.48</pos>
-			<maxSize>0.386 0.40</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -744,7 +744,7 @@ based on 1920 x 1200
 	<customView name="grid-detailed" ifSubset="font-size:small,metadata:on" >
 		<video name="md_video">
 			<pos>0.25 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -846,7 +846,7 @@ based on 1920 x 1200
 	<customView name="grid-detailed-flipped" ifSubset="font-size:small,metadata:on" >
 		<video name="md_video">
 			<pos>0.75 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -951,7 +951,7 @@ based on 1920 x 1200
 	<customView name="grid-detailed" ifSubset="font-size:medium|large,metadata:on" >
 			<video name="md_video">
 			<pos>0.255 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -1025,7 +1025,7 @@ based on 1920 x 1200
 	<customView name="grid-detailed-flipped" ifSubset="font-size:medium|large,metadata:on" >
 			<video name="md_video">
 			<pos>0.755 0.28</pos>
-			<maxSize>0.448958333333333 0.38</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -1110,7 +1110,7 @@ based on 1920 x 1200
 	<customView name="grid-detailed" ifSubset="metadata:off" >
 	<video name="md_video">
 			<pos>0.255 0.48</pos>
-			<maxSize>0.386 0.40</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
@@ -1137,7 +1137,7 @@ based on 1920 x 1200
 	<customView name="grid-detailed-flipped" ifSubset="metadata:off" >
 	<video name="md_video">
 			<pos>0.755 0.48</pos>
-			<maxSize>0.386 0.40</maxSize>
+			<maxSize>0.448958333333333 0.42</maxSize>
 			<visible>true</visible>
 		</video>
 		<image name="md_marquee">
