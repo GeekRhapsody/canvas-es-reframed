@@ -15,6 +15,11 @@
 		<include name="small" displayName="4 Rows"/>
 	</subset>
 
+	<subset name="grid-media-type" displayName="Grid Image Type" appliesTo="grid,grid-detailed,grid-detailed-flipped" >
+		<include name="thumbnail" displayName="Thumbnail"/>
+		<include name="image" displayName="Image"/>
+	</subset>
+
 	<!-- Game Grid View -->
 	<!-- ~~~~~~~~~~~ -->
 	<view name="grid">
@@ -55,7 +60,8 @@
       		<size ifSubset="metadata:on">0.975 0.72</size>
       		<size ifSubset="metadata:off">0.975 0.78</size>
 			<padding>7 7 7 7</padding>			
-			<imageSource>cover</imageSource>
+			<imageSource ifSubset="grid-media-type:thumbnail">thumbnail</imageSource>
+			<imageSource ifSubset="grid-media-type:image">image</imageSource>
 			<scrollbarColor>${secondaryColor}</scrollbarColor>
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>

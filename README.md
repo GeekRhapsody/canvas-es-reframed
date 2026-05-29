@@ -93,7 +93,11 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
 
     - `Image` - Show only the scraped game image.
     - `Boxart` - Show only the scraped game boxart.
-    - `Miximage` - Compile a Miximage with boxart, marquee, and screenshot.
+
+  - `Grid Image Type` - enables you to change the image used for grid tiles.
+
+    - `Thumbnail` - Show the scraped game thumbnail.
+    - `Image` - Show the scraped game image.
 
   - `Automatic Grid Size` - enables you to change the number of rows for the `Grid` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
 
