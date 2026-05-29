@@ -25,6 +25,7 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
     - `GameCarousel` - A carousel of game marquees and metadata on the left.
     - `Grid` - A grid of boxart and minimal metadata below for games. No metadata images.
     - `Grid-Detailed` - A grid of boxart and detailed metadata on the left for games.
+    - `Grid (Detailed Flipped)` - A grid of boxart on the left and detailed metadata on the right for games.
 
   - `Default Grid Style` - Sets the rows/columns of the grid views. The theme will scale optimally based on the `Automatic Grid Rows/Columns` below if left as `Automatic`.
 

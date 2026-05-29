@@ -146,7 +146,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    ///
    -->
 
-   <subset name="media-type" displayName="Metadata Image Type"  appliesTo="detailed,carousel,grid-detailed">
+   <subset name="media-type" displayName="Metadata Image Type"  appliesTo="detailed,carousel,grid-detailed,grid-detailed-flipped">
       <include name="image" displayName="Image" />
 	  <include name="boxart" displayName="Boxart" />
       <include name="miximage" displayName="Miximage" />
@@ -564,7 +564,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 
 	<!-- Off Metadata Toggle -->
 	<!-- ~~~~~~~~~~~~~ -->
-	<view name="detailed, gamecarousel, grid, grid-detailed" ifSubset="metadata:off">
+	<view name="detailed, gamecarousel, grid, grid-detailed, grid-detailed-flipped" ifSubset="metadata:off">
 		<image name="game-metadata-background-shadow-base" extra="true">
 			<visible>false</visible>
 		</image>
@@ -608,7 +608,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    		<!-- Detailed Game Grid View -->
 	<!-- ~~~~~~~~~~~ -->
 
-	<subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed" >
+	<subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed,grid-detailed-flipped" >
 		<include name="automatic" displayName="Automatic"/>
 		<include name="large" displayName="2 Columns"/>
 		<include name="medium" displayName="3 Columns"/>
@@ -623,6 +623,25 @@ Licnese: Creative Commons CC-BY-NC-SA
 		</imagegrid>
 		<imagegrid name="gamegrid" ifSubset="autogriddetailedsize:automatic">
     		<autoLayout ifSubset="aspect-ratio:16-9|16-9-auto">3 0</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:16-10|16-10-auto">3 0</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:1-1|1-1-auto">2 0</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:4-3|4-3-auto">2 0</autoLayout>
+		</imagegrid>
+		<imagegrid name="gamegrid" ifSubset="autogriddetailedsize:small,medium,large">
+			<autoLayout ifSubset="autogriddetailedsize:large">2 0</autoLayout>
+			<autoLayout ifSubset="autogriddetailedsize:medium">3 0</autoLayout>
+			<autoLayout ifSubset="autogriddetailedsize:small">4 0</autoLayout>
+		</imagegrid>
+	</customView>
+
+	<customView name="grid-detailed-flipped" inherits="grid" displayName="Grid (Detailed Flipped)">
+		<imagegrid name="gamegrid">
+			<pos>0 0</pos>
+			<size ifHelpPrompts="true">0.5 0.95</size>
+			<size ifHelpPrompts="false">0.5 1</size>
+		</imagegrid>
+		<imagegrid name="gamegrid" ifSubset="autogriddetailedsize:automatic">
+			<autoLayout ifSubset="aspect-ratio:16-9|16-9-auto">3 0</autoLayout>
 			<autoLayout ifSubset="aspect-ratio:16-10|16-10-auto">3 0</autoLayout>
 			<autoLayout ifSubset="aspect-ratio:1-1|1-1-auto">2 0</autoLayout>
 			<autoLayout ifSubset="aspect-ratio:4-3|4-3-auto">2 0</autoLayout>
