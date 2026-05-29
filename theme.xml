@@ -149,7 +149,6 @@ Licnese: Creative Commons CC-BY-NC-SA
    <subset name="media-type" displayName="Metadata Image Type"  appliesTo="detailed,detailed-flipped,carousel,grid-detailed,grid-detailed-flipped">
       <include name="image" displayName="Image" />
 	  <include name="boxart" displayName="Boxart" />
-      <include name="miximage" displayName="Miximage" />
    </subset>
 
    <!--
@@ -422,7 +421,6 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<visible>false</visible>
 		</image>
 		<image name="md_thumbnail">
-			<origin ifSubset="media-type:miximage">0 0.5</origin>
 			<origin ifSubset="media-type:boxart">0.5 0.5</origin>
 			<zIndex>6</zIndex>
 			<visible>false</visible>
@@ -433,7 +431,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<roundCorners>0.005</roundCorners>
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 			<zIndex>8</zIndex>
 		</video>

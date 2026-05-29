@@ -24,9 +24,6 @@ based on 720x480 (RG34XX and similar handhelds)
 	<variables ifSubset="media-type:boxart">
 		<visiblemix>false</visiblemix>
 	</variables>
-   	<variables ifSubset="media-type:miximage">
-		<visiblemix>true</visiblemix>
-	</variables>
 
 	<!-- System View Grid -->
 	<!-- ~~~~~~~~~~~ -->
@@ -367,7 +364,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.255 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -468,7 +464,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.755 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -573,7 +568,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.255 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -649,7 +643,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.755 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -726,7 +719,6 @@ based on 720x480 (RG34XX and similar handhelds)
 		<image name="md_image">
 			<pos>0.255 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -754,7 +746,6 @@ based on 720x480 (RG34XX and similar handhelds)
 		<image name="md_image">
 			<pos>0.755 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -787,7 +778,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.255 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -897,7 +887,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.755 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1010,7 +999,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.255 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1088,7 +1076,6 @@ based on 720x480 (RG34XX and similar handhelds)
 			<pos>0.755 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
 			<maxSize ifSubset="media-type:boxart">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1176,7 +1163,6 @@ based on 720x480 (RG34XX and similar handhelds)
 		<image name="md_image">
 			<pos>0.255 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1204,7 +1190,6 @@ based on 720x480 (RG34XX and similar handhelds)
 		<image name="md_image">
 			<pos>0.755 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.4632 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.4632 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1231,7 +1216,7 @@ based on 720x480 (RG34XX and similar handhelds)
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</view>
@@ -1245,7 +1230,7 @@ based on 720x480 (RG34XX and similar handhelds)
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</customView>
@@ -1259,7 +1244,7 @@ based on 720x480 (RG34XX and similar handhelds)
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</customView>
@@ -1273,7 +1258,7 @@ based on 720x480 (RG34XX and similar handhelds)
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</customView>

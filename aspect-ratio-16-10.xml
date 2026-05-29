@@ -14,9 +14,6 @@ based on 1920 x 1200
 	<variables ifSubset="media-type:boxart">
 		<visiblemix>false</visiblemix>
 	</variables>
-   	<variables ifSubset="media-type:miximage">
-		<visiblemix>true</visiblemix>
-	</variables>
 
 	<!-- System View Grid -->
 	<!-- ~~~~~~~~~~~ -->
@@ -350,7 +347,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.25 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.38</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.31</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -449,7 +445,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.75 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.38</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.31</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -552,7 +547,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.255 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -627,7 +621,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.755 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -704,7 +697,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.255 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -732,7 +724,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.755 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -764,7 +755,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.25 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.38</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.31</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -867,7 +857,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.75 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.38</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.31</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -973,7 +962,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.255 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1048,7 +1036,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.755 0.28</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1134,7 +1121,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.255 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1162,7 +1148,6 @@ based on 1920 x 1200
 		<image name="md_image">
 			<pos>0.755 0.48</pos>
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
-			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
 			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
@@ -1189,7 +1174,7 @@ based on 1920 x 1200
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</view>
@@ -1203,7 +1188,7 @@ based on 1920 x 1200
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</customView>
@@ -1217,7 +1202,7 @@ based on 1920 x 1200
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</customView>
@@ -1231,7 +1216,7 @@ based on 1920 x 1200
 		<video name="md_video">
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<snapshotSource ifSubset="media-type:image|miximage">image</snapshotSource>
+			<snapshotSource ifSubset="media-type:image">image</snapshotSource>
 			<snapshotSource ifSubset="media-type:boxart">thumbnail</snapshotSource>
 		</video>
 	</customView>
