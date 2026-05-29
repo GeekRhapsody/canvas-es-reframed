@@ -18,6 +18,7 @@
 	<subset name="grid-media-type" displayName="Grid Image Type" appliesTo="grid,grid-detailed,grid-detailed-flipped" >
 		<include name="thumbnail" displayName="Thumbnail"/>
 		<include name="image" displayName="Image"/>
+		<include name="marquee" displayName="Marquee"/>
 	</subset>
 
 	<!-- Game Grid View -->
@@ -62,6 +63,7 @@
 			<padding>7 7 7 7</padding>			
 			<imageSource ifSubset="grid-media-type:thumbnail">thumbnail</imageSource>
 			<imageSource ifSubset="grid-media-type:image">image</imageSource>
+			<imageSource ifSubset="grid-media-type:marquee">marquee</imageSource>
 			<scrollbarColor>${secondaryColor}</scrollbarColor>
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>
@@ -87,6 +89,7 @@
 			<forceUppercase>false</forceUppercase>
 			<visible ifSubset="grid-media-type:thumbnail">false</visible>
 			<visible ifSubset="grid-media-type:image">true</visible>
+			<visible ifSubset="grid-media-type:marquee">false</visible>
 		</text>
 		<text name="gridtile_selected">
 			<fontPath>${fontBold}</fontPath>
@@ -97,6 +100,7 @@
 			<forceUppercase>false</forceUppercase>
 			<visible ifSubset="grid-media-type:thumbnail">false</visible>
 			<visible ifSubset="grid-media-type:image">true</visible>
+			<visible ifSubset="grid-media-type:marquee">false</visible>
 		</text>
     	<image name="gridtile.image">
 			<linearSmooth>true</linearSmooth>
