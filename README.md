@@ -97,7 +97,7 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
   - `Grid Image Type` - enables you to change the image used for grid tiles.
 
     - `Thumbnail` - Show the scraped game thumbnail.
-    - `Image` - Show the scraped game image.
+    - `Image` - Show the scraped game image with the game name under each tile.
 
   - `Automatic Grid Size` - enables you to change the number of rows for the `Grid` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
 

@@ -78,6 +78,26 @@
 			<padding>3.5 3.5</padding>
               <path>./_inc/system-view/square-bg.png</path>
 		</gridtile>
+		<text name="gridtile">
+			<fontPath>${fontBold}</fontPath>
+			<fontSize>0.018</fontSize>
+			<color>${gamelistPrimaryColor}</color>
+			<backgroundColor>00000000</backgroundColor>
+			<alignment>center</alignment>
+			<forceUppercase>false</forceUppercase>
+			<visible ifSubset="grid-media-type:thumbnail">false</visible>
+			<visible ifSubset="grid-media-type:image">true</visible>
+		</text>
+		<text name="gridtile_selected">
+			<fontPath>${fontBold}</fontPath>
+			<fontSize>0.018</fontSize>
+			<color>${gamelistSelectedColor}</color>
+			<backgroundColor>00000000</backgroundColor>
+			<alignment>center</alignment>
+			<forceUppercase>false</forceUppercase>
+			<visible ifSubset="grid-media-type:thumbnail">false</visible>
+			<visible ifSubset="grid-media-type:image">true</visible>
+		</text>
     	<image name="gridtile.image">
 			<linearSmooth>true</linearSmooth>
 			<roundCorners>${CornersGrid}</roundCorners>
